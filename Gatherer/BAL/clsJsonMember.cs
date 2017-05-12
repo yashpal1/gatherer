@@ -8,6 +8,7 @@ namespace BAL
     public class clsJsonMember
     {
 
+
         public class SearchClone : SessionFields
         {
             public string LeftPanel { get; set; }
