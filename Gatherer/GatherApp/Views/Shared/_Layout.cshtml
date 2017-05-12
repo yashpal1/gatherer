@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/assets/lib/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/jquery-ui.min.css?1041" rel="stylesheet" />
+    <link href="~/assets/css/my-admin.css" rel="stylesheet" />
+    <link href="~/assets/css/custom.css" rel="stylesheet" />
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <link href="~/assets/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/assets/js/jquery-2.2.3.min.js"></script>
+    <script src="~/assets/js/jquery-ui.min.js"></script>
+    <script src="~/assets/lib/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
+   
+</head>
+
+
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom:0;">
+            <div class="navbar-header">
+                <a class="navbar-brand"><img src="assets/images/Bitsol_logo.png" /></a>
+            </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <button style="position:absolute;display:none;z-index:2;" id="btnBack">back to clf</button>
+                    <a id="userIconBtn">
+                        <span class="glyphicon glyphicon-user size-2x a usericon"></span><span class="glyphicon glyphicon-triangle-bottom triangleicon"></span>
+                        <div id="userBG"></div>
+                    </a>
+                </li>
+            </ul>
+            <div id="tog">
+                <div class="text"></div>
+            </div>
+            <div class="header-orange-strip clearfix" style="clear:both;"></div>
+
+        </nav>
+        <div class="navbar-default sidebar" id="side-navigation" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <div class="header-orange-strip orangecolorhight"></div>
+                <div id="SideMenuAccordion" class="accordion">
+                    <ul class="nav nav-stacked firstulli" id="side-menu">
+                        <li class="active firstli"><a class="active">Entry Form</a></li>
+                        <li class="firstli"><a>Historical Data</a></li>
+                        <li class="firstli"><a>Reports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            @RenderBody()
+        </div>
+    </div>
+
+    <script>
+
+        $(window).on("resize", function () {
+            if ($(window).innerWidth() > 8) {
+                screenHeight = $(window).innerHeight();
+
+                $('#side-navigation, #main-container').css('height', screenHeight - 107)
+                $('#mainScroll').css('height', screenHeight - 157)
+
+                $('input').each(function () {
+                    $(this).val(randomFrom(['10', '20', '30', '40', '50']));
+                });
+            }
+        }).resize();
+
+        $("#tog").on("click", function () {
+            $(".navbar-default.sidebar").toggle("slide", { direction: 'left' });
+            $(".page-header").toggleClass("wide");
+            $("#page-wrapper").toggleClass("wide", [600]);
+            $("#tog").toggleClass("wide");
+
+            setTimeout(setBlockWidth, 601)
+
+        });
+
+        function toggleQuater(ctrl, No) {
+                //$('.quater-block').removeClass('active')
+                $(ctrl).parent().toggleClass('active');
+                $('.qtr' + No).toggleClass('active');
+        }
+
+        function randomFrom(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
+        function toggleActive(number) {
+            $('.upper-tabs li').removeClass('active');
+            $('.upper-tabs li:nth-child(' + number + ')').addClass('active');
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
+
+
+
+
+<body>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/JS")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

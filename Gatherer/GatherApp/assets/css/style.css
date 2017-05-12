@@ -1,0 +1,154 @@
+ body{ width:100%;margin: 0; padding-top:0; overflow-y:hidden;}
+.upper-li{ display:inline; float:left; font-weight:600; margin-bottom:inherit; color:#000 !important;}	
+.panel-body{ padding:0px !important;}
+.underlyingmanagerrowcolor{ background-color:#CCC; font-weight:bold; padding-left:15px; margin-bottom:5px;}
+.panel-default > .panel-heading{ display:block; background:#bbb; cursor:pointer; color:#fff;}
+.panel-default > .panel-heading .managericon{transition: all ease .4s;font-size: 1.2em;}
+.panel-default > .panel-heading[aria-expanded="true"]{background:#eee; color:#333;}
+.panel-default > .panel-heading[aria-expanded="true"] .managericon{transform:rotate(180deg);}
+.panel-title a{display:block; text-decoration:none;}
+.secondheading{ background-color:#ccc; padding-left:15px; font-weight:bold;}
+.managericon{ float:right; font-size:1.3em;}
+
+.managerexpenceratio{ background-color:#CCC; padding-left:15px; padding-top:5px; font-weight:bold; border-top:1px solid #FFF;}
+.firstulli{ margin-left:0px; background-color:inherit; width:100%;}
+.firstli{ font-family:Tahoma, Geneva, sans-serif;}
+.mainscroll{overflow-y:scroll;margin-right:-15px;margin-top:-15px; padding-top:15px;padding-right:15px; padding-bottom:0; position:relative;}
+.wrapperdiv{height:843px; position:relative;}
+.uploadicon{margin-left:95%;}
+.playicon{margin-left:98%; margin-top:-22px;}
+.usericon{padding-top:2%;}
+.settingsmarging{margin-left:5px;}
+.orangecolorhight{height:48px;}
+.managerfont{ font-weight:700;}
+.previewbold{font-weight: bold;}
+
+.nav-tabs>li {float: left;margin-bottom: -12px !important;}
+.popupbody{width:380px; display:none;position:absolute;top:75px;left:75%;}
+.settingsicon{color:#FFF; margin-top:5px; font-size:20px;}
+.firsticon{background-color:#333333; height:30px;}
+.plusicon{float:right; padding-top:3%; height:30px; font-size:1.5em;}
+.firstrow{background-color:#FFF; border:1px solid #CCC; height:%; border-top:none;}
+.firstmanagercontentbgcolor{background-color:#FFF; border:1px groove;}
+.textboxwidth{ width:100%; margin-left:55%;}
+.textboxwidthdiv{ margin-top:-20px;}
+.preview{width:100%; margin-left:15px;}
+.borderstyle{ background-color:#FFF; border:1px solid #CCC; height:30px;}
+.manager{width:100%; margin-left:15px;}
+.fund{width:100%; margin-left:-15px;}
+.t2{width:100%; border:1px solid #CCC; background-color:#FFF; font-weight:bold;}
+.t1{ background-color:#fdca2e; width:70%;margin-left:25%; margin-top:-35px; border:1px solid #999;}
+.slectportfolio{margin-left:0px; width:97%; height:30px; margin-top:-10px;}
+.slectmanager{margin-left:0px; width:97%; margin-top:-100px; height:30px;}
+.allocate{ width:73%; margin-left:21%; margin-top:-9%; height:30px; margin-bottom:18px;}
+.circle{ height:40px; width:40px; border:2px solid #000; border-radius:40px; background-color:#FFF; margin-left:10px; font-weight:bold; font-size:initial; padding-top:10px;}
+.verticalli{ border:1px solid; margin-left:14px;}
+.circleicondiv{margin-top:-9px; margin-left:10px;}
+.circleicon{margin-left:-1px; padding-top:5px;}
+.panelbodybgcolor{background-color: #E6E6FA;}
+.ulbgcolor{width:100%; height:36px; background-color:#999 !important; margin-left:0px;}
+.plusicondivwidth{width:100%; margin-left:0px; margin-bottom:-2px;}
+.downicon{float:right; color:darkgray;}
+.paneldefult2{ margin-left:14px; width:93%; margin-top:-22px !important;}
+.paneldefult1{ margin-left:14px; width:93%; margin-top:-5px;}
+.panel{ border:1px solid #ddd;border-top:none;border-bottom:none;}
+#accordion .panel:first-child{ border-top:1px solid #ddd;}
+.managerxyz{margin-top:-2px; margin-left:0px;}
+.Portfolio2{ margin-left:0px;}
+.managerli{ font-size:14px; font-weight:bold;}
+.portfolio1manager{margin-left:31%;}
+.portfolio2manager{margin-left:31%;}
+.textboxwidtharea{ margin-top:-30px;}
+.fundwidth{ width:50%;}
+.fundmanagerwidth{width:50%; float:right;}
+.allocatemarging{ padding-top:5px; margin-left:85px; padding-left:100px; font-weight:bold;}
+.popupcontent{ margin-left:4%;}
+.Managed{ margin-left:4px;}
+.panelmarging{margin-top:-3px !important;}
+.panelheadingpopup{ background-color:#FFF !important; border-bottom:1px solid #CCC;}
+.panelheadingpopup1{ background-color:#FFF !important; border:1px solid #CCC; border-right:none; border-left:none;}
+.rowwportfolioname {width: 100%; margin-left: 0px; background-color: #FFF; border: 1px solid wheat;border-top: none; height: 40px; padding-top: 10px;font-size: initial; font-weight:bold;}
+
+.panelbodycirclediv{background-color:#E6E6FA;}
+.popuppreview{width:100%; margin-left:0px; line-height:21px;}
+.merrow{width:100%; margin-left:0px;}
+.textboxwidthdivmargingbottom{ margin-bottom:10px;}
+.popup-tab-one-content-marging{margin-top:20px;}
+.popup-tab-two-content-marging{margin-top:10px;}
+.portfoliomanagername{margin-left:20%;}
+.circlediv{ margin-top:5px;}
+.selectportfoliodiv{margin-top:13px;}
+.slectmanagerdiv{margin-top:78px;}
+
+
+
+
+
+
+
+ .right-page-content-border{border-bottom:1px solid #ddd;padding:5px 0}
+        .right-page-content-border:last-child{border-bottom:none}
+        .right-page-content-border.cost-page-row{padding:0;}
+        .total-cost-row{height:60px;padding-top:20px;padding-left:140px;border-bottom:1px solid #ddd}
+        .contentborder{border-bottom:1px solid #ddd}
+        .cost-page-firstcol{width:111px;float:left;font-size:14px;height:100px;border-right:1px solid #ddd; text-align:center;}
+        .cost-page-firstcol ul{height:100%;margin:0;padding:0;}
+        .cost-page-firstcol ul li{height:100%;width:100%; display:table;}
+        .cost-page-firstcol ul li span{display:table-cell;vertical-align:middle;}
+        .cost-page-secondcol{border-right:1px solid #ddd;padding-left:5px;overflow:hidden; padding-top:2px;padding-bottom:2px;}
+        .cost-page-thirdcol{border:1px solid #999;line-height:20px;border-top:none}
+        .textbox-marging-top{margin-top:3px}
+        .textbox-marging-buttom{margin-bottom:3px}
+        .pblock{padding-top:2px;margin-bottom: 5px;}
+        .font-bold{font-weight:700}
+        .border-bottom{border-bottom:1px solid #ddd}
+        .border-right{border-right:1px solid #ddd}
+        .border-left{border-left:1px solid #ddd}
+        .light-grey{background:#eee}
+        .pad-block{padding:5px 15px}
+        .data-row .pad-block{padding:2px 15px}
+        .data-row{margin-bottom:5px}
+        .data-row:last-child{margin-bottom:0}
+        .multiRow{margin-bottom:5px;height:19px;}
+        .mar-bottom-10{margin-bottom:25px}
+        .panel{border-radius:0}
+        .panel-heading{border-radius:0}
+        .main-tabs{background:#999;padding-right:15px;margin-bottom:10px}
+        .main-tabs > ul{list-style:none;display:inline-block;float:left;margin: 0;padding: 0;}
+        .main-tabs > ul li{margin:0;display:inline-block}
+        .main-tabs > ul li a{padding:6px 15px;display:inline-block;text-decoration:none;color:#333;}
+        .main-tabs > ul li.active a{color:#FFF}
+        .main-tabs .main-tabs-select{float:right;width:200px;margin-top:5px}
+        .left-fixed-width-area{width:360px;float:left}
+        .right-area{overflow:hidden}
+        .cost-page-row .right-area{padding:2px 0;}
+        .right-fixed-area{width:120px;float:right}
+        .quater-blocks-area{overflow:hidden;max-height:27px}
+        .quater-block{width:25%;float:left;position:relative;border-right:1px solid #ddd;max-height:27px;transition:all ease .4s;overflow:hidden;}
+        .months-block{overflow:hidden}
+        .total-block{width:100%;float:right;position:absolute; right:-100%;transition: all ease 0.4s;}
+        .second-header .total-block{background:#eee;}
+        .quater-block.active .total-block{display:block;-webkit-animation: slide 0.4s forwards;animation: slide 0.4s forwards;}
+        .one-third{width:33.33%;float:left}
+        .quater-block .one-third{border-right:1px solid #ddd}
+        .quater-block1 .one-third1{border:1px solid #ddd}
+        .quater-block .one-third:last-child{border-right:none}
+        .quater-block .one-third.pad-block{padding:5px}
+        .quater-block .btnQtrToggle{position:absolute;right:10px;top:6px;transition:all ease .4s}
+        .quater-block.active .btnQtrToggle{transform:rotate(180deg)}
+        .data-row input{border:none;width:100%; text-align:center;}
+        .data-row .one-third{border-right:none}
+        .data-row .quater-block{border-right:none;}
+
+        .header-border{border:1px solid #ddd;border-bottom:none;}
+
+
+        @-webkit-keyframes slide {
+            100% { right: 0; }
+        }
+        @keyframes slide {
+            100% { right: 0; }
+        }
+        
+
+

@@ -1,0 +1,14 @@
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\bin\Release\BAL.dll
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\bin\Release\BAL.pdb
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\bin\Release\DAL.dll
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\bin\Release\DAL.pdb
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\obj\Release\BAL.csprojResolveAssemblyReference.cache
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\obj\Release\BAL.dll
+C:\freespace\Hemant\Hemant_SD\RLv2\BAL\obj\Release\BAL.pdb
+F:\FW Projects\RLV2\BAL\bin\Release\BAL.dll
+F:\FW Projects\RLV2\BAL\bin\Release\BAL.pdb
+F:\FW Projects\RLV2\BAL\bin\Release\DAL.dll
+F:\FW Projects\RLV2\BAL\bin\Release\DAL.pdb
+F:\FW Projects\RLV2\BAL\obj\Release\BAL.csprojResolveAssemblyReference.cache
+F:\FW Projects\RLV2\BAL\obj\Release\BAL.dll
+F:\FW Projects\RLV2\BAL\obj\Release\BAL.pdb

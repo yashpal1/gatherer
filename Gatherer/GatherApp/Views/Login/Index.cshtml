@@ -1,0 +1,148 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Australian Super</title>
+    <link href="~/assets/lib/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/cutom.css" rel="stylesheet" />
+    <link href="~/assets/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/assets/js/jquery-2.2.3.min.js"></script>
+
+    <style>
+        .input-group-btn {
+            border: 1px solid #ccc;
+            border-left: none;
+            transition: all ease .3s;
+            background: #59636A;
+        }
+
+            .input-group-btn button {
+                border: none;
+                background: transparent;
+                color: #FFF;
+                line-height: 30px;
+                padding: 0 10px;
+            }
+
+            .input-group-btn .svg.login path {
+                fill: #333;
+                transition: all ease .3s;
+                fill: #FFF;
+            }
+
+            .input-group-btn:hover {
+                background: #fff;
+            }
+
+                .input-group-btn:hover .svg.login path {
+                    fill: #59636A;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel login-panel col-sm-6 col-sm-offset-3" style="margin-top:40vh;">
+                <div class="header-logo" style="padding: 15px 15px 0;">
+                    <img src="assets/images/Bitsol_logo.png" />
+                </div>
+                <div class="panel-body">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">Gatherer</div>
+
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="col-sm-12">
+                                <!--<div id="login-alert" class="alert alert-danger"></div>-->
+
+                                <div id="loginform" class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <input id="login-password" type="password" class="form-control" name="password" placeholder="Password">
+                                            <span class="input-group-btn">
+                                                <button id="btn-login" class="btn btn-login btn-transparent btn-xs" title="Login">
+                                                    <i class="glyphicon glyphicon-arrow-right"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/lib/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script>
+        $('html').keypress(function (e) {
+            if (e.which == 13)  // the enter key code
+                $('#btn-login').click();
+        });
+        $(window).on("resize", function () {
+            if ($(window).innerWidth() > 768) {
+                $('.login-panel').css('margin-top', ($('body').height() - $('.login-panel').height() - 10) / 2);
+            }
+        }).resize();
+        $(document).ready(function () {
+            $('body').css('min-height', $('.login-panel').height());
+            $("#login-username").focus();
+            //$('#login-password').bind("cut copy paste", function (e) {
+            //    e.preventDefault();
+            //});
+            svgConvert();
+        })
+        function svgConvert() {
+            jQuery('img.svg').each(function () {
+                var $img = jQuery(this);
+                var imgID = $img.attr('id');
+                var imgClass = $img.attr('class');
+                var imgURL = $img.attr('src');
+
+                jQuery.get(imgURL, function (data) {
+                    // Get the SVG tag, ignore the rest
+                    var $svg = jQuery(data).find('svg');
+
+                    // Add replaced image's ID to the new SVG
+                    if (typeof imgID !== 'undefined') {
+                        $svg = $svg.attr('id', imgID);
+                    }
+                    // Add replaced image's classes to the new SVG
+                    if (typeof imgClass !== 'undefined') {
+                        $svg = $svg.attr('class', imgClass + ' replaced-svg');
+                    }
+
+                    // Remove any invalid XML tags as per http://validator.w3.org
+                    $svg = $svg.removeAttr('xmlns:a');
+
+                    // Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+                    if (!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
+                        $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
+                    }
+
+                    // Replace image with new SVG
+                    $img.replaceWith($svg);
+
+                }, 'xml');
+
+            });
+        }
+    </script>
+</body>
