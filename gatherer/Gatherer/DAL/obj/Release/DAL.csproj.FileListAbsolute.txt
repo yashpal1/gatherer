@@ -1,0 +1,10 @@
+C:\freespace\Hemant\Hemant_SD\RLv2\DAL\bin\Release\DAL.dll
+C:\freespace\Hemant\Hemant_SD\RLv2\DAL\bin\Release\DAL.pdb
+C:\freespace\Hemant\Hemant_SD\RLv2\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\freespace\Hemant\Hemant_SD\RLv2\DAL\obj\Release\DAL.dll
+C:\freespace\Hemant\Hemant_SD\RLv2\DAL\obj\Release\DAL.pdb
+F:\FW Projects\RLV2\DAL\bin\Release\DAL.dll
+F:\FW Projects\RLV2\DAL\bin\Release\DAL.pdb
+F:\FW Projects\RLV2\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+F:\FW Projects\RLV2\DAL\obj\Release\DAL.dll
+F:\FW Projects\RLV2\DAL\obj\Release\DAL.pdb
