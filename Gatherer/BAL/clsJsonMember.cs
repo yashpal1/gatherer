@@ -8,7 +8,7 @@ namespace BAL
     public class clsJsonMember
     {
 
-        //here is my change.
+        //here is my change. one
         public class loginDetails
         {
             public string UserId { get; set; }
