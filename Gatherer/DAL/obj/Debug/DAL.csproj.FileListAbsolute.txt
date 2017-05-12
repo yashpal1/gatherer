@@ -159,3 +159,8 @@ F:\FW Projects\RLV2\DAL\bin\Debug\DAL.pdb
 F:\FW Projects\RLV2\DAL\obj\Debug\DAL.dll
 F:\FW Projects\RLV2\DAL\obj\Debug\DAL.pdb
 F:\FW Projects\RLV2\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\FW Projects\Gather_GIT\Gatherer\DAL\bin\Debug\DAL.dll
+E:\FW Projects\Gather_GIT\Gatherer\DAL\bin\Debug\DAL.pdb
+E:\FW Projects\Gather_GIT\Gatherer\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\FW Projects\Gather_GIT\Gatherer\DAL\obj\Debug\DAL.dll
+E:\FW Projects\Gather_GIT\Gatherer\DAL\obj\Debug\DAL.pdb

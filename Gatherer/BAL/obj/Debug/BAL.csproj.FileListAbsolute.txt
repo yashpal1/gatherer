@@ -249,3 +249,10 @@ F:\FW Projects\RLV2\BAL\bin\Debug\DAL.pdb
 F:\FW Projects\RLV2\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
 F:\FW Projects\RLV2\BAL\obj\Debug\BAL.dll
 F:\FW Projects\RLV2\BAL\obj\Debug\BAL.pdb
+E:\FW Projects\Gather_GIT\Gatherer\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+E:\FW Projects\Gather_GIT\Gatherer\BAL\obj\Debug\BAL.dll
+E:\FW Projects\Gather_GIT\Gatherer\BAL\obj\Debug\BAL.pdb
+E:\FW Projects\Gather_GIT\Gatherer\BAL\bin\Debug\BAL.dll
+E:\FW Projects\Gather_GIT\Gatherer\BAL\bin\Debug\BAL.pdb
+E:\FW Projects\Gather_GIT\Gatherer\BAL\bin\Debug\DAL.dll
+E:\FW Projects\Gather_GIT\Gatherer\BAL\bin\Debug\DAL.pdb
