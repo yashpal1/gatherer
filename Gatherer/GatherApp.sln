@@ -10,19 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{41CD06F9-5D2C-45A6-984C-A6CE13DAD1BA}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 4
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GatherApp\\GatherApp.csproj
-		SccProjectName1 = \u0022$/Gatherer/GatherApp\u0022,\u0020UEXAAAAA
-		SccLocalPath1 = GatherApp
-		SccProjectUniqueName2 = DAL\\DAL.csproj
-		SccProjectName2 = \u0022$/Gatherer/DAL\u0022,\u0020JDXAAAAA
-		SccLocalPath2 = DAL
-		SccProjectUniqueName3 = BAL\\BAL.csproj
-		SccProjectName3 = \u0022$/Gatherer/BAL\u0022,\u0020NBXAAAAA
-		SccLocalPath3 = BAL
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
