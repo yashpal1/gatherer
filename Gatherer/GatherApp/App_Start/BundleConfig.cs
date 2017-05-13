@@ -29,7 +29,9 @@ namespace GatherApp
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/js").Include(
-                "~/JS/AngularApp.js"));
+                "~/JS/AngularApp.js",
+                "~/JS/ctrlLogin.js"
+                ));
 
         }
     }

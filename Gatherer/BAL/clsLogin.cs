@@ -24,7 +24,6 @@ namespace BAL
             }
             catch (Exception)
             {
-
                 throw;
             }
             finally
