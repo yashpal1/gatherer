@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BAL">
-      <HintPath>..\BAL\bin\Release\BAL.dll</HintPath>
+      <HintPath>..\BAL\bin\Debug\BAL.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
