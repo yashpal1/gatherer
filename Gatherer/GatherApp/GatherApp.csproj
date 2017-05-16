@@ -279,6 +279,7 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="JS\AngularApp.js" />
     <Content Include="JS\ctrlLogin.js" />
+    <Content Include="JS\custom.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
